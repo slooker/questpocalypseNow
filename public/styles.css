@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+#error {
+  font-weight: bold;
+  color: red;
+}
+
+table, th,td{
+  border: 1px solid black;
+  border-spacing: 4px;
+  text-align: center;
+  padding: 10px;
+}
+
+.win {
+  background-color: green;
+}
+
+.loss {
+  background-color: red;
+}
+
+.tie {
+  background-color: yellow;
+}
