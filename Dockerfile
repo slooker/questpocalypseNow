@@ -1,5 +1,5 @@
 ## This tells us what to use as a base.  The node docker containers are good, so might as well use them
-FROM node:9
+FROM node:9-slim
 
 ## Make a directory for our app
 RUN mkdir -p /opt/app/public

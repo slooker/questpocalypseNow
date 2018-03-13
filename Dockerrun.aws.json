@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "slooker/questpocalypsenow",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "1313"
+    }
+  ],
+  "Logging": "/var/log/"
+}
